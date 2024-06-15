@@ -37,5 +37,5 @@ df=scrape(base_url)
 
 print(df)
 
-df.to_csv("../data/raw/products1.csv", index=False, mode='a', header=False)  
+df.to_csv("../proyectopython/data/raw/products.csv", index=False)  
     
